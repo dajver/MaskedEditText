@@ -3,13 +3,7 @@ package project.dajver.com.maskedittext;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import butterknife.BindView;
-import project.dajver.com.maskedittext.view.MaskedEditText;
-
 public class MainActivity extends AppCompatActivity {
-
-    @BindView(R.id.phone)
-    MaskedEditText maskedEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
