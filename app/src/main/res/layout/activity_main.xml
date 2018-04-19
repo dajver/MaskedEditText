@@ -9,9 +9,6 @@
         android:id="@+id/phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="+"
         android:inputType="phone"
         app:mask="+99 (999) 999-99-99"
         app:placeholder="_" />
